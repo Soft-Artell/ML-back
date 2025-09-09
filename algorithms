@@ -11,6 +11,8 @@ def print_month(month, year):
    days = month_length[idx]                 ❸
    if calendar.isleap(year) and idx == 1:   ❹
       days += 1
+      days += 1
+
 
    print(f"{month} {year}".center(20))
    print("Пн Вт Ср Чт Пт Сб Вс")
