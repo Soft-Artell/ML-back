@@ -12,6 +12,7 @@ def print_month(month, year):
    if calendar.isleap(year) and idx == 1:   ❹
       days += 1
       days += 1
+      days += 1
 
 
    print(f"{month} {year}".center(20))
